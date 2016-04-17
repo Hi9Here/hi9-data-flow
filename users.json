@@ -1,13 +1,14 @@
 {
-    "users": {
-        "marchitchens": {
-            "name": "Marc Hitchens",
-            "userdeck": {
-                "residents": true,
-                "business": true
-            },
-            "admin": {
-                "yarlington": true
-            }
+  "users": {
+    "marchitchens": {
+      "name": "Marc Hitchens",
+      "userdeck": {
+        "residents": true,
+        "business": true
+      },
+      "admin": {
+        "yarlington": true
+      }
     }
+  }
 }
