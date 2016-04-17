@@ -23,6 +23,45 @@
                 "kateking": true
             }
 
+        },
+        "lifeskills": {
+            "name": "Resident Events",
+            "admin": "Yarlington",
+            "userdecks": {
+                "residents": true
+            },
+            "users": {
+                "marchitchens": true,
+                "woking": true,
+                "kateking": true
+            }
+
+        },
+        "singlechallenges": {
+            "name": "Resident Events",
+            "admin": "Yarlington",
+            "userdecks": {
+                "residents": true
+            },
+            "users": {
+                "marchitchens": true,
+                "woking": true,
+                "kateking": true
+            }
+
+        },
+        "jobsinpenzance": {
+            "name": "Resident Events",
+            "admin": "Yarlington",
+            "userdecks": {
+                "residents": true
+            },
+            "users": {
+                "marchitchens": true,
+                "woking": true,
+                "kateking": true
+            }
+
         }
     }
 }

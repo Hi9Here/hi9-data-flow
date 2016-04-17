@@ -8,6 +8,25 @@
         "residents": true,
         "business": true
       }
+    },
+        "dickvandyke": {
+      "name": "Dick Van Dyke",
+      "admin": "Yarlington",
+      "email": "dick@yarlington.com",
+      "userdecks": {
+        "alvertonresidents": true,
+        "business": true
+      }
+    },
+            "timwotton": {
+      "name": "Tim Wotton",
+      "admin": "DCH",
+      "email": "timwotton@dch.com",
+      "userdecks": {
+        "penzancejobless": true,
+        "singlemums": true,
+        "learningdifficulties": true
+      }
     }
   }
 }

@@ -1,13 +1,59 @@
 {
   "userdecks": {
     "residents": {
-      "marchitchens": true,
-      "kateking": true
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "marchitchens": true,
+        "kateking": true
+      }
     },
     "business": {
-      "marchitchens": true,
-      "woking": true,
-      "kateking": true
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "marchitchens": true,
+        "woking": true,
+        "kateking": true
+      }
+    },
+    "alvertonresidents": {
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "kateking": true
+      }
+    },
+    "penzancejobless": {
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "tonyjones": true,
+        "paulsmith": true,
+        "canutthegreat": true
+      }
+    },
+    "singlemums": {
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "marchitchens": true,
+        "woking": true,
+        "kateking": true
+      }
+    },
+    "leaningdifficulties": {
+      "admin": {
+        "yarlington": true
+      },
+      "users": {
+        "angelaharris": true
+      }
     }
   }
 }

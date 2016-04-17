@@ -1,13 +1,36 @@
 {
-  "admin": {
-    "powerusers": {
-      "marchitchens": true,
-      "kateking": true
-    },
-    "business": {
-      "marchitchens": true,
-      "woking": true,
-      "kateking": true
+    "admin": {
+        "yarlington": {
+            "powerusers": {
+                "ellielee": true,
+                "dickvandyke": true
+            },
+            "users": {
+                "marchitchens": true,
+                "woking": true,
+                "kateking": true
+            },
+            "userdecks": {
+                "residents": true,
+                "business": true,
+                "alvertonresidents": true
+            }
+        },
+        "dch": {
+            "powerusers": {
+                "timwotton": true
+            },
+            "users": {
+                "tonyjones": true,
+                "paulsmith": true,
+                "canutthegreat": true,
+                "angelaharris": true
+            },
+            "userdecks": {
+                "penzancejobless": true,
+                "singlemums": true,
+                "learningdifficulties": true
+            }
+        }
     }
-  }
 }
