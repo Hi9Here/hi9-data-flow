@@ -9,6 +9,25 @@
       "poweruser": {
         "ellielee": true
       }
+    },
+  "woking": {
+      "name": "Wo King",
+      "deck": {
+        "residents": true
+      },
+      "poweruser": {
+        "ellielee": true
+      }
+    },
+    "kateking": {
+      "name": "Kate King",
+      "deck": {
+        "residents": true,
+        "business": true
+      },
+      "poweruser": {
+        "ellielee": true
+      }
     }
   }
 }

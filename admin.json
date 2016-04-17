@@ -1,6 +1,6 @@
 {
-  "userdecks": {
-    "residents": {
+  "admin": {
+    "powerusers": {
       "marchitchens": true,
       "kateking": true
     },

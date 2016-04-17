@@ -3,6 +3,7 @@
     "ellielee": {
       "name": "Ellie Lee",
       "admin": "Yarlington",
+      "email": "ellielee@yarlington.com",
       "userdecks": {
         "residents": true,
         "business": true

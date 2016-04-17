@@ -1,15 +1,28 @@
 {
-  "decks": {
-    "busskills": {
-      "name": "Business Skills",
-      "admin": "Yarlington",
-      "userdecks": {
-        "residents": true,
-        "business": true
-      },
-      "users": {
-          "marchitchens": true
-      }
+    "decks": {
+        "busskills": {
+            "name": "Business Skills",
+            "admin": "Yarlington",
+            "userdecks": {
+                "residents": true
+            },
+            "users": {
+                "marchitchens": true,
+                "kateking": true
+            }
+        },
+        "residentevents": {
+            "name": "Resident Events",
+            "admin": "Yarlington",
+            "userdecks": {
+                "residents": true
+            },
+            "users": {
+                "marchitchens": true,
+                "woking": true,
+                "kateking": true
+            }
+
+        }
     }
-  }
 }
