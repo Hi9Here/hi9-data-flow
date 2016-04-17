@@ -1,7 +1,12 @@
 {
   "powerusers": {
-    "name": "Yarlington",
-    "user": "Ellie Lee"
+    "ellielee": {
+      "name": "Ellie Lee",
+      "admin": "Yarlington",
+      "userdecks": {
+        "residents": true,
+        "business": true
+      }
+    }
   }
-
 }

@@ -2,12 +2,12 @@
   "users": {
     "marchitchens": {
       "name": "Marc Hitchens",
-      "userdeck": {
+      "deck": {
         "residents": true,
         "business": true
       },
-      "admin": {
-        "yarlington": true
+      "poweruser": {
+        "ellielee": true
       }
     }
   }

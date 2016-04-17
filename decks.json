@@ -1,7 +1,15 @@
 {
   "decks": {
-    "residents": {
-      "marchitchens": true
+    "busskills": {
+      "name": "Business Skills",
+      "admin": "Yarlington",
+      "userdecks": {
+        "residents": true,
+        "business": true
+      },
+      "users": {
+          "marchitchens": true
+      }
     }
   }
 }

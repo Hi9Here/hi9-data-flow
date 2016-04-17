@@ -1,0 +1,14 @@
+{
+  "userdecks": {
+    "residents": {
+      "marchitchens": true,
+      "woking": true,
+      "kateking": true
+    },
+    "business": {
+      "marchitchens": true,
+      "woking": true,
+      "kateking": true
+    }
+  }
+}
