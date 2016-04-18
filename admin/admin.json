@@ -10,20 +10,21 @@
     },
     "users": {
       "marchitchens": {
-        "name": "Marcus Hitchins",  
-        "email": "marcus7777@gmail.com",  
-        "tel": "0789545434",  
+        "name": "Marcus Hitchins",
+        "email": "marcus7777@gmail.com",
+        "tel": "0789545434",
         "address1": "Something House",
         "address2": "Something Street",
         "town": "Something Town",
         "county": "Something County",
         "postcode": "Something Posts Code",
-        "country": "Something Country"
+        "country": "Something Country",
+        "cards": {}
       },
       "woking": {
-        "name": "Wo King",  
-        "email": "mywoisme@gmail.com",  
-        "tel": "0789566544",  
+        "name": "Wo King",
+        "email": "mywoisme@gmail.com",
+        "tel": "0789566544",
         "address1": "Chy an Gover",
         "address2": "Lamorna",
         "town": "Penzance",
@@ -32,40 +33,62 @@
         "country": "United Kingdom"
       },
       "kateking": {
-        "name": "Kate King",  
-        "email": "kateking@gmail.com",  
-        "tel": "01736 732324",  
+        "name": "Kate King",
+        "email": "kateking@gmail.com",
+        "tel": "01736 732324",
         "address1": "33",
         "address2": "Bukingham Palace Road",
         "town": "London",
         "postcode": "WC1B 3RT",
         "country": "United Kingdom"
       },
-
-    "userdecks": {
-      "residents": {
-        "001": "marchitchens",
-        "002": "woking"
+      "userdecks": {
+        "residents": {
+          "cards": {},
+          "marchitchens": {
+            "cards": {}
+          },
+          "woking": {
+            "cards": {}
+          }
+        },
+        "business": {},
+        "alvertonresidents": {}
+      },
+      "cards": {
+        "https://facebook.com/:yarlington": {
+          "title": "Facebook",
+          "img": "http:hi9.com/images/facebook.png"
+        },
+        "https://jobsearch/:yarlington": {
+          "title": "Job Search",
+          "img": "http:hi9.com/images/jobsearchicon.png"
+        },
+        "https://bbc.com/:yarlington": {
+          "title": "BBC",
+          "img": "http:hi9.com/images/bbc.png"
+        },
+        "https://guardian.com/:yarlington": {
+          "title": "Guardian",
+          "img": "http:hi9.com/images/facebook.png"
+        }
       }
     },
-    "business": true,
-    "alvertonresidents": true
-  }
-},
-"dch": {
-  "powerusers": {
-    "timwotton": true
   },
-  "users": {
-    "tonyjones": true,
-    "paulsmith": true,
-    "canutthegreat": true,
-    "angelaharris": true
-  },
-  "userdecks": {
-    "penzancejobless": true,
-    "singlemums": true,
-    "learningdifficulties": true
+  "dch": {
+    "powerusers": {
+      "timwotton": true
+    },
+    "users": {
+      "tonyjones": true,
+      "paulsmith": true,
+      "canutthegreat": true,
+      "angelaharris": true
+    },
+    "userdecks": {
+      "penzancejobless": true,
+      "singlemums": true,
+      "learningdifficulties": true
+    }
   }
-}
 }
