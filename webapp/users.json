@@ -1,0 +1,30 @@
+{
+  "marchitchens": {
+    "name": "Marc Hitchens",
+    "admin": "yarlington"
+  },
+  "woking": {
+    "name": "Wo King",
+    "admin": "yarlington"
+  },
+  "kateking": {
+    "name": "Kate King",
+    "admin": "yarlington"
+  },
+  "tonyjones": {
+    "name": "Tony Jones",
+    "admin": "dch"
+  },
+  "paulsmith": {
+    "name": "Paul Smith",
+    "admin": "dch"
+  },
+  "canutthegreat": {
+    "name": "Canut Great",
+    "admin": "dch"
+  },
+  "angelaharris": {
+    "name": "Angela Harris",
+    "admin": "dch"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "powerusers": {
+    "ellielee": {
+      "name": "Ellie Lee",
+      "admin": "yarlington",
+      "email": "ellielee@yarlington.com"
+    },
+    "dickvandyke": {
+      "name": "Dick Van Dyke",
+      "admin": "yarlington",
+      "email": "dick@yarlington.com"
+    },
+    "timwotton": {
+      "name": "Tim Wotton",
+      "admin": "dch",
+      "email": "timwotton@dch.com"
+    }
+  }
+}
