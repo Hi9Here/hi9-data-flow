@@ -98,10 +98,10 @@
       }
     },
     "users": {
-      "marchitchens": {
+      "tonyjones": {
         //check this against webappshared/userid/userinfoshared
         "adminauserinfo": {
-          "name": "Marcus Hitchins",
+          "name": "Tony Jones",
           "email": "marcus7777@gmail.com",
           "tel": "0789545434",
           "address1": "Something House",
