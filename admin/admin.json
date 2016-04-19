@@ -96,7 +96,86 @@
       "timwotton": true
     },
     "users": {
-
+      "marchitchens": {
+        //check this against webappshared/userid/userinfoshared
+        "adminauserinfo": {
+          "name": "Marcus Hitchins",
+          "email": "marcus7777@gmail.com",
+          "tel": "0789545434",
+          "address1": "Something House",
+          "address2": "Something Street",
+          "town": "Something Town",
+          "county": "Something County",
+          "postcode": "Something Posts Code",
+          "country": "Something Country"
+        },
+        //add these cards to the ones in the userdeck per user
+        "adminusercards": {
+          "https://facebook.com/:yarlington": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://guardian.com/:yarlington": {
+            "title": "Guardian",
+            "img": "http:hi9.com/images/facebook.png"
+          }
+        },
+        //these are the answers to the survey questions
+        "adminsurveyanswers": {
+          "https://doyoulikeflowers/:yarlington": {
+            "question": "Do you like flowers?",
+            "answer": "Yes"
+          },
+          "https://areyouticklish/:yarlington": {
+            "question": "Are you ticklish?",
+            "answer": "No"
+          }
+        }
+      },
+      "woking": {
+        "name": "Wo King",
+        "email": "mywoisme@gmail.com",
+        "tel": "0789566544",
+        "address1": "Chy an Gover",
+        "address2": "Lamorna",
+        "town": "Penzance",
+        "county": "Cornwall",
+        "postcode": "TR19 6XQ",
+        "country": "United Kingdom"
+      },
+      "kateking": {
+        "name": "Kate King",
+        "email": "kateking@gmail.com",
+        "tel": "01736 732324",
+        "address1": "33",
+        "address2": "Bukingham Palace Road",
+        "town": "London",
+        "postcode": "WC1B 3RT",
+        "country": "United Kingdom"
+      }
+    },
+    "userdecks": {
+      "residents": {
+        //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
+        "cards": {
+          "https://jobsearch/:yarlington": {
+            "title": "Job Search",
+            "img": "http:hi9.com/images/jobsearchicon.png"
+          },
+          "https://bbc.com/:yarlington": {
+            "title": "BBC",
+            "img": "http:hi9.com/images/bbc.png"
+          },
+          //list of users done alphabetically
+          "users": {
+            "01": "marchitchens",
+            "02": "woking",
+            "03": "kateking"
+          },
+          "business": {},
+          "alvertonresidents": {}
+        }
+      }
     }
   }
 }
