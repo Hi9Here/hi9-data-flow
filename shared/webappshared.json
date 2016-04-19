@@ -1,0 +1,56 @@
+{
+    "marchitchens": {
+        //this 
+        "userinfoshared": {
+            "name": "Marcus Hitchins",
+            "email": "marcus7777@gmail.com",
+            "tel": "0789545434",
+            "address1": "Something House",
+            "address2": "Something Street",
+            "town": "Something Town",
+            "county": "Something County",
+            "postcode": "Something Posts Code",
+            "country": "Something Country"
+        },
+        //add these cards to the ones in the userdeck per user
+        "usercardsshared": {
+            "https://facebook.com/:yarlington": {
+                "title": "Facebook",
+                "img": "http:hi9.com/images/facebook.png"
+            },
+            "https://guardian.com/:yarlington": {
+                "title": "Guardian",
+                "img": "http:hi9.com/images/facebook.png"
+            }
+        },
+        //these are the answers to the survey questions
+        "usersurveyanswersshared": {
+            "https://doyoulikeflowers/:yarlington": {
+                "question": "Do you like flowers?",
+                "answer": "Yes"
+            },
+            "https://areyouticklish/:yarlington": {
+                "question": "Are you ticklish?",
+                "answer": "No"
+            }
+        }
+    },
+    "woking": {
+
+    },
+    "kateking": {
+
+    },
+    "tonyjones": {
+
+    },
+    "paulsmith": {
+
+    },
+    "canutthegreat": {
+
+    },
+    "angelaharris": {
+
+    }
+}
