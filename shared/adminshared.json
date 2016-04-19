@@ -2,132 +2,149 @@
   //Paths are Admin specific. So each admin redoes the data in their path each time they update
   "yarlington": {
     //List of users in this admin
-    "marchitchens": {
-      "https://facebook.com/:yarlington": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
+    "adminsharedusers": {
+      "marchitchens": {
+        //List of users cards
+        "adminsharedcards": {
+          "https://facebook.com/:yarlington": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://jobsearch/:yarlington": {
+            "title": "Job Search",
+            "img": "http:hi9.com/images/jobsearchicon.png"
+          },
+          "https://bbc.com/:yarlington": {
+            "title": "BBC",
+            "img": "http:hi9.com/images/bbc.png"
+          },
+          "https://guardian.com/:yarlington": {
+            "title": "Guardian",
+            "img": "http:hi9.com/images/facebook.png"
+          }
+        }
       },
-      "https://jobsearch/:yarlington": {
-        "title": "Job Search",
-        "img": "http:hi9.com/images/jobsearchicon.png"
-      },
-      "https://bbc.com/:yarlington": {
-        "title": "BBC",
-        "img": "http:hi9.com/images/bbc.png"
-      },
-      "https://guardian.com/:yarlington": {
-        "title": "Guardian",
-        "img": "http:hi9.com/images/facebook.png"
-      }
-    },
-    "woking": {
-      "https://facebook.com/:yarlington": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
-      },
-      "https://reddit.com/:yarlington": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
-      },
-      "https://gawker.com/:yarlington": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
-      },
-      "https://buzzfeed.com/:yarlington": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
-      }
-    },
-    "kateking": {
-      "https://facebook.com/:yarlington": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
-      },
-      "https://reddit.com/:yarlington": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
-      },
-      "https://gawker.com/:yarlington": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
-      },
-      "https://buzzfeed.com/:yarlington": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
+      "woking": {
+        "adminsharedcards": {
+          "https://facebook.com/:yarlington": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/:yarlington": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/:yarlington": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/:yarlington": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        },
+        "kateking": {
+          "https://facebook.com/:yarlington": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/:yarlington": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/:yarlington": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/:yarlington": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        }
       }
     }
   },
   "dch": {
-    "tonyjones": {
-      "https://facebook.com/:dch": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
+    "adminsharedusers": {
+      "tonyjones": {
+        "adminsharedcards": {
+          "https://facebook.com/:dch": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/:dch": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/:dch": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/:dch": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        }
       },
-      "https://reddit.com/:dch": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
+      "paulsmith": {
+        "adminsharedcards": {
+          "https://facebook.com/dch": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/dch": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/dch": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/dch": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        }
       },
-      "https://gawker.com/:dch": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
+      "canutthegreat": {
+        "adminsharedcards": {
+          "https://facebook.com/dch": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/dch": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/dch": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/dch": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        }
       },
-      "https://buzzfeed.com/:dch": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
-      }
-    },
-    "paulsmith": {
-      "https://facebook.com/dch": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
-      },
-      "https://reddit.com/dch": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
-      },
-      "https://gawker.com/dch": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
-      },
-      "https://buzzfeed.com/dch": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
-      }
-    },
-    "canutthegreat": {
-      "https://facebook.com/dch": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
-      },
-      "https://reddit.com/dch": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
-      },
-      "https://gawker.com/dch": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
-      },
-      "https://buzzfeed.com/dch": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
-      }
-    },
-    "angelaharris": {
-      "https://facebook.com/dch": {
-        "title": "Facebook",
-        "img": "http:hi9.com/images/facebook.png"
-      },
-      "https://reddit.com/dch": {
-        "title": "Reddit",
-        "img": "http:hi9.com/images/reddit.png"
-      },
-      "https://gawker.com/dch": {
-        "title": "Gawker",
-        "img": "http:hi9.com/images/gawker.png"
-      },
-      "https://buzzfeed.com/dch": {
-        "title": "Buzzfeed",
-        "img": "http:hi9.com/images/buzzfeed.png"
+      "angelaharris": {
+        "adminsharedcards": {
+          "https://facebook.com/dch": {
+            "title": "Facebook",
+            "img": "http:hi9.com/images/facebook.png"
+          },
+          "https://reddit.com/dch": {
+            "title": "Reddit",
+            "img": "http:hi9.com/images/reddit.png"
+          },
+          "https://gawker.com/dch": {
+            "title": "Gawker",
+            "img": "http:hi9.com/images/gawker.png"
+          },
+          "https://buzzfeed.com/dch": {
+            "title": "Buzzfeed",
+            "img": "http:hi9.com/images/buzzfeed.png"
+          }
+        }
       }
     }
   }
