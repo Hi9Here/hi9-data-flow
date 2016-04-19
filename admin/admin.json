@@ -93,7 +93,9 @@
   },
   "dch": {
     "powerusers": {
-      "timwotton": true
+      "timwotton": {
+        "name": "Tim Wotton"
+      }
     },
     "users": {
       "marchitchens": {
