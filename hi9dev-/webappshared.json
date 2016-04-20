@@ -1,11 +1,8 @@
 {
-  //each users's path is changed just by that users
-  "randomadminid": {
-    
-  }
   "marchitchens": {
     //this 
     "usersharedinfo": {
+      "uid": "uid10",
       "name": "Marcus Hitchins",
       "email": "marcus7777@gmail.com",
       "tel": "0789545434",

@@ -1,10 +1,12 @@
 {
   //Paths are Admin specific. So each admin redoes the data in their path each time they update
-  "yarlington": {
+  //This is Yarlington uid10
+  "uid0": {
     //List of users in this admin
     "adminsharedusers": {
-      "marchitchens": {
-        //List of users cards
+       //Marcus Hitchens Card
+      "uid10": {
+        //List of users cards that have been shared by the admin
         "adminsharedcards": {
           "https://facebook.com/:yarlington": {
             "title": "Facebook",

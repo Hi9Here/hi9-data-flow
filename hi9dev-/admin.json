@@ -5,11 +5,13 @@
       "address1": "22 Space City",
       "address2": "Yeovil"      
     },
+    //What the Power Users can read
     "readableBy": {
       "uid1": "true",
       "uid2": "true",
       "uid3": "true"
     },
+    //What the Power users can write
     "writabalBy": {
       "uid1": "true",
       "uid2": "true"
@@ -24,7 +26,7 @@
       }
     },
     "webappusers": {
-      "googleuid": {
+      "uid10": {
         //check this against webappshared/userid/userinfoshared
         "adminauserinfo": {
           "name": "Marcus Hitchins",
