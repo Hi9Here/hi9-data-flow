@@ -1,0 +1,49 @@
+{
+  //each users's path is changed just by that users
+  "randomadminid": {
+    
+  }
+  "marchitchens": {
+    //this 
+    "usersharedinfo": {
+      "name": "Marcus Hitchins",
+      "email": "marcus7777@gmail.com",
+      "tel": "0789545434",
+      "address1": "Something House",
+      "address2": "Something Street",
+      "town": "Something Town",
+      "county": "Something County",
+      "postcode": "Something Posts Code",
+      "country": "Something Country"
+    },
+    //these are the answers to the survey questions
+    "usersharedsurveyanswers": {
+      "https://doyoulikeflowers/:yarlington": {
+        "question": "Do you like flowers?",
+        "answer": "Yes"
+      },
+      "https://areyouticklish/:yarlington": {
+        "question": "Are you ticklish?",
+        "answer": "No"
+      }
+    }
+  },
+  "woking": {
+
+  },
+  "kateking": {
+
+  },
+  "tonyjones": {
+
+  },
+  "paulsmith": {
+
+  },
+  "canutthegreat": {
+
+  },
+  "angelaharris": {
+
+  }
+}

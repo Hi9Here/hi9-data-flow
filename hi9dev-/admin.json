@@ -1,15 +1,30 @@
 {
-  "yarlington": {
-    "adminpowerusers": {
-      "ellielee": {
-        "adminname": "Ellie Lee"
+  "uid0": {
+    "admin": {
+      "businessname": "Yarlington",
+      "address1": "22 Space City",
+      "address2": "Yeovil"      
+    },
+    "readableBy": {
+      "uid1": "true",
+      "uid2": "true",
+      "uid3": "true"
+    },
+    "writabalBy": {
+      "uid1": "true",
+      "uid2": "true"
+    },
+    "adminusers": {
+      "uid0": {
+        "adminname": "Ellie Lee",
+        "emailaddress": "ellielee@yarlington.com"
       },
-      "dickvandyke": {
+      "uid1": {
         "adminname": "Dick Van Dyke"
       }
     },
-    "adminusers": {
-      "marchitchens": {
+    "webappusers": {
+      "googleuid": {
         //check this against webappshared/userid/userinfoshared
         "adminauserinfo": {
           "name": "Marcus Hitchins",

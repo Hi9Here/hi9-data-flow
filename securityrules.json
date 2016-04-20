@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "webapp": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+    "admin": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid == $uid || data.child('readableBy').child(auth.uid).val() == true)",
+        ".write": "auth != null && (auth.uid == $uid || data.child('writableBy').child(auth.uid).val() == true)"
+      }
+    },
+    "share": {
+      "$uid": {
+        ".write": "auth != null && auth.uid == $uid",
+        "$key": {
+          ".read": "auth != null && data.child('readableBy').child(auth.uid).val() == true"
+        }
+      }
+    }
+  }
+}

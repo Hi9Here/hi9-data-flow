@@ -22,6 +22,9 @@
             "title": "Guardian",
             "img": "http:hi9.com/images/facebook.png"
           }
+        },
+        "readable": {
+          "marchitches": "true"
         }
       },
       "woking": {
