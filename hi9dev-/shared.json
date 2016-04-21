@@ -1,77 +1,111 @@
 {
   //Paths are Admin specific. So each admin redoes the data in their path each time they update
-  //This is Yarlington uid10
+  //This is Yarlington uid0
   "uid0": {
     //List of users in this admin
     "adminsharedusers": {
-       //Marcus Hitchens
+      //Marcus Hitchens
+      //shared info from webapp
       "uid10": {
+        "sharedinfo": {
+          "name": "Marcus Hitchins",
+          "email": "marcus7777@gmail.com",
+          "tel": "0789545434",
+          "address1": "Something House",
+          "address2": "Something Street",
+          "town": "Something Town",
+          "county": "Something County",
+          "postcode": "Something Posts Code",
+          "country": "Something Country",
+          "timestamp": "21254456325"
+        },
         //List of users cards that have been shared by the admin
         "adminsharedcards": {
-          "https://facebook.com/:yarlington": {
+          "https://facebook.com/:uid1": {
             "title": "Facebook",
             "img": "http:hi9.com/images/facebook.png"
           },
-          "https://jobsearch/:yarlington": {
+          "https://jobsearch/:uid1": {
             "title": "Job Search",
             "img": "http:hi9.com/images/jobsearchicon.png"
           },
-          "https://bbc.com/:yarlington": {
+          "https://bbc.com/:uid1": {
             "title": "BBC",
             "img": "http:hi9.com/images/bbc.png"
           },
-          "https://guardian.com/:yarlington": {
+          "https://guardian.com/:uid1": {
             "title": "Guardian",
             "img": "http:hi9.com/images/facebook.png"
           }
         },
         "readable": {
           "uid10": "true"
-        }
-      },
-      //Wo King
-      "uid11": {
-        "adminsharedcards": {
-          "https://facebook.com/:yarlington": {
-            "title": "Facebook",
-            "img": "http:hi9.com/images/facebook.png"
+        },
+        //these are the survey questions
+        "adminsurveyquestions": {
+          "https://doyoulikeflowers/:yarlington": {
+            "question": "Do you like flowers?"
           },
-          "https://reddit.com/:yarlington": {
-            "title": "Reddit",
-            "img": "http:hi9.com/images/reddit.png"
-          },
-          "https://gawker.com/:yarlington": {
-            "title": "Gawker",
-            "img": "http:hi9.com/images/gawker.png"
-          },
-          "https://buzzfeed.com/:yarlington": {
-            "title": "Buzzfeed",
-            "img": "http:hi9.com/images/buzzfeed.png"
+          "https://areyouticklish/:yarlington": {
+            "question": "Are you ticklish?"
           }
         },
-        //Kate King
-        "uid12": {
-          "https://facebook.com/:yarlington": {
-            "title": "Facebook",
-            "img": "http:hi9.com/images/facebook.png"
+        //these are the answers to the survey questions
+        "adminsurveyanswers": {
+          "https://doyoulikeflowers/:yarlington": {
+            "question": "Do you like flowers?",
+            "answer": "Yes"
           },
-          "https://reddit.com/:yarlington": {
-            "title": "Reddit",
-            "img": "http:hi9.com/images/reddit.png"
-          },
-          "https://gawker.com/:yarlington": {
-            "title": "Gawker",
-            "img": "http:hi9.com/images/gawker.png"
-          },
-          "https://buzzfeed.com/:yarlington": {
-            "title": "Buzzfeed",
-            "img": "http:hi9.com/images/buzzfeed.png"
+          "https://areyouticklish/:yarlington": {
+            "question": "Are you ticklish?",
+            "answer": "No"
           }
+        }
+      }
+    },
+    //Wo King
+    "uid11": {
+      "adminsharedcards": {
+        "https://facebook.com/:yarlington": {
+          "title": "Facebook",
+          "img": "http:hi9.com/images/facebook.png"
+        },
+        "https://reddit.com/:yarlington": {
+          "title": "Reddit",
+          "img": "http:hi9.com/images/reddit.png"
+        },
+        "https://gawker.com/:yarlington": {
+          "title": "Gawker",
+          "img": "http:hi9.com/images/gawker.png"
+        },
+        "https://buzzfeed.com/:yarlington": {
+          "title": "Buzzfeed",
+          "img": "http:hi9.com/images/buzzfeed.png"
+        }
+      },
+      //Kate King
+      "uid12": {
+        "https://facebook.com/:yarlington": {
+          "title": "Facebook",
+          "img": "http:hi9.com/images/facebook.png"
+        },
+        "https://reddit.com/:yarlington": {
+          "title": "Reddit",
+          "img": "http:hi9.com/images/reddit.png"
+        },
+        "https://gawker.com/:yarlington": {
+          "title": "Gawker",
+          "img": "http:hi9.com/images/gawker.png"
+        },
+        "https://buzzfeed.com/:yarlington": {
+          "title": "Buzzfeed",
+          "img": "http:hi9.com/images/buzzfeed.png"
         }
       }
     }
   },
-  "dch": {
+  //DCH uid1
+  "uid1": {
     "adminsharedusers": {
       "tonyjones": {
         "adminsharedcards": {

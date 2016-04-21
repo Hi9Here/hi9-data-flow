@@ -1,6 +1,6 @@
 {
   "uid10": {
-    //Syncs when changed to webappshared.json/usersharedinfo
+    //Syncs when changed to webappshared.json/shared
     "info": {
       "name": "Marcus Hitchins",
       "email": "marcus7777@gmail.com",
@@ -110,3 +110,4 @@
       "admin": "dch"
     }
   }
+}
