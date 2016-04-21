@@ -129,7 +129,9 @@
         },
         //list of users done alphabetically
         "users": {
+          //Marcus Code UID
           "01": "uid10",
+          //Wo King UID
           "02": "uid11",
           "03": "uid12"
         },
