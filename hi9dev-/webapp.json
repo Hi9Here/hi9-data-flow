@@ -1,14 +1,18 @@
 {
   "uid10": {
-    "name": "Marcus Hitchins",
-    "email": "marcus7777@gmail.com",
-    "tel": "0789545434",
-    "address1": "Something House",
-    "address2": "Something Street",
-    "town": "Something Town",
-    "county": "Something County",
-    "postcode": "Something Posts Code",
-    "country": "Something Country",
+    //Syncs when changed to webappshared.json/usersharedinfo
+    "info": {
+      "name": "Marcus Hitchins",
+      "email": "marcus7777@gmail.com",
+      "tel": "0789545434",
+      "address1": "Something House",
+      "address2": "Something Street",
+      "town": "Something Town",
+      "county": "Something County",
+      "postcode": "Something Posts Code",
+      "country": "Something Country",
+      "timestamp": "21254456325"
+    },
     "cards": {
       "links": {
         "https://bbc.com/:uid10": {
@@ -44,36 +48,65 @@
           "img": "http:hi9.com/images/producthunt.png"
         }
       },
+      //survey questions from an admin to an individual
       "surveyquestions": {
-        
+        "https://doyoulikepink/:uid10": {
+          "title": "Do You Like Pink?"
+        },
+        "https://areyoutall/:uid10": {
+          "title": "Are You Tall?"
+        }
+      },
+      //these are the survey questions from admin to a deck
+      "adminsurveyquestions": {
+        "https://doyoulikeflowers/:uid1": {
+          "question": "Do you like flowers?"
+        },
+        "https://areyouticklish/:uid1": {
+          "question": "Are you ticklish?"
+        }
       },
       //used to create webappshared.json/usersharedsurveyanswers
       "surveyanswers": {
-        
+        "https://doyoulikepink/:uid10": {
+          "title": "Do You Like Pink?",
+          "answer": "Yes"
+        },
+        "https://areyoutall/:uid10": {
+          "title": "Are You Tall?",
+          "img": "Yes"
+        }
+      },
+      //these are the answers to the survey questions from admin to deck
+      "adminsurveyanswers": {
+        "https://areyouticklish/:uid1": {
+          "question": "Do you like flowers?",
+          "answer": "Yes"
+        }
       }
-  },
-  "uid11": {
-    "name": "Wo King",
-    "admin": "yarlington"
-  },
-  "uid12": {
-    "name": "Kate King",
-    "admin": "yarlington"
-  },
-  "uid13": {
-    "name": "Tony Jones",
-    "admin": "dch"
-  },
-  "uid14": {
-    "name": "Paul Smith",
-    "admin": "dch"
-  },
-  "uid15": {
-    "name": "Canut Great",
-    "admin": "dch"
-  },
-  "uid16": {
-    "name": "Angela Harris",
-    "admin": "dch"
+    },
+    "uid11": {
+      "name": "Wo King",
+      "admin": "yarlington"
+    },
+    "uid12": {
+      "name": "Kate King",
+      "admin": "yarlington"
+    },
+    "uid13": {
+      "name": "Tony Jones",
+      "admin": "dch"
+    },
+    "uid14": {
+      "name": "Paul Smith",
+      "admin": "dch"
+    },
+    "uid15": {
+      "name": "Canut Great",
+      "admin": "dch"
+    },
+    "uid16": {
+      "name": "Angela Harris",
+      "admin": "dch"
+    }
   }
-}

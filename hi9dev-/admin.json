@@ -3,7 +3,7 @@
     "admin": {
       "businessname": "Yarlington",
       "address1": "22 Space City",
-      "address2": "Yeovil"      
+      "address2": "Yeovil"
     },
     //What the Power Users can read
     "readableBy": {
@@ -22,7 +22,8 @@
         "emailaddress": "ellielee@yarlington.com"
       },
       "uid1": {
-        "adminname": "Dick Van Dyke"
+        "adminname": "Dick Van Dyke",
+        "emailaddress": "dickvandyke@yarlington.com"
       }
     },
     "webappusers": {
@@ -37,7 +38,8 @@
           "town": "Something Town",
           "county": "Something County",
           "postcode": "Something Posts Code",
-          "country": "Something Country"
+          "country": "Something Country",
+          "timstamp": "13455353553"
         },
         //add these cards to the ones in the userdeck per user
         "adminusercards": {
@@ -48,6 +50,15 @@
           "https://guardian.com/:yarlington": {
             "title": "Guardian",
             "img": "http:hi9.com/images/facebook.png"
+          }
+        },
+        //these are the survey questions
+        "adminsurveyquestions": {
+          "https://doyoulikeflowers/:yarlington": {
+            "question": "Do you like flowers?"
+          },
+          "https://areyouticklish/:yarlington": {
+            "question": "Are you ticklish?"
           }
         },
         //these are the answers to the survey questions
@@ -62,7 +73,7 @@
           }
         }
       },
-      "woking": {
+      "uid11": {
         "name": "Wo King",
         "email": "mywoisme@gmail.com",
         "tel": "0789566544",
@@ -73,7 +84,7 @@
         "postcode": "TR19 6XQ",
         "country": "United Kingdom"
       },
-      "kateking": {
+      "uid12": {
         "name": "Kate King",
         "email": "kateking@gmail.com",
         "tel": "01736 732324",
@@ -85,6 +96,139 @@
       }
     },
     "adminuserdecks": {
+      "residents": {
+        //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
+        "cards": {
+          "https://jobsearch/:uid1": {
+            "title": "Job Search",
+            "img": "http:hi9.com/images/jobsearchicon.png"
+          },
+          "https://bbc.com/:uid1": {
+            "title": "BBC",
+            "img": "http:hi9.com/images/bbc.png"
+          }
+        },
+        //these are the survey questions
+        "adminsurveyquestions": {
+          "https://areyouanalien/:uid1": {
+            "question": "Are you an Alien?"
+          },
+          "https://areyouticklish/:uid1": {
+            "question": "Are you ticklish?"
+          }
+        },
+        "adminsurveyanswers": {
+          "https://areyouanalien/:uid1": {
+            "question": "Are you an Alien?",
+            "answer": "Yes"
+          },
+          "https://areyouticklish/:uid1": {
+            "question": "Are you ticklish?",
+            "answer": "No"
+          }
+        },
+        //list of users done alphabetically
+        "users": {
+          "01": "uid10",
+          "02": "uid11",
+          "03": "uid12"
+        },
+        "business": {},
+        "alvertonresidents": {}
+      }
+    }
+  }
+},
+"dch": {
+  "adminpowerusers": {
+    "timwotton": {
+      "name": "Tim Wotton"
+    }
+  },
+  "adminusers": {
+    "tonyjones": {
+      //check this against webappshared/userid/userinfoshared
+      "adminauserinfo": {
+        "name": "Tony Jones",
+        "email": "tonyjones@gmail.com",
+        "tel": "0789545434",
+        "address1": "Something House",
+        "address2": "Something Street",
+        "town": "Something Town",
+        "county": "Something County",
+        "postcode": "Something Posts Code",
+        "country": "Something Country"
+      },
+      //add these cards to the ones in the userdeck per user
+      "adminusercards": {
+        "https://facebook.com/:yarlington": {
+          "title": "Facebook",
+          "img": "http:hi9.com/images/facebook.png"
+        },
+        "https://guardian.com/:yarlington": {
+          "title": "Guardian",
+          "img": "http:hi9.com/images/facebook.png"
+        }
+      },
+      //these are the answers to the survey questions
+      "adminsurveyanswers": {
+        "https://doyoulikeflowers/:yarlington": {
+          "question": "Do you like flowers?",
+          "answer": "Yes"
+        },
+        "https://areyouticklish/:yarlington": {
+          "question": "Are you ticklish?",
+          "answer": "No"
+        }
+      }
+    },
+    "paulsmith": {
+      //check this against webappshared/userid/userinfoshared
+      "adminauserinfo": {
+        "name": "Wo King",
+        "email": "mywoisme@gmail.com",
+        "tel": "0789566544",
+        "address1": "Chy an Gover",
+        "address2": "Lamorna",
+        "town": "Penzance",
+        "county": "Cornwall",
+        "postcode": "TR19 6XQ",
+        "country": "United Kingdom"
+      },
+      //add these cards to the ones in the userdeck per user
+      "adminusercards": {
+        "https://facebook.com/:yarlington": {
+          "title": "Facebook",
+          "img": "http:hi9.com/images/facebook.png"
+        },
+        "https://guardian.com/:yarlington": {
+          "title": "Guardian",
+          "img": "http:hi9.com/images/facebook.png"
+        }
+      },
+      //these are the answers to the survey questions
+      "adminsurveyanswers": {
+        "https://doyoulikeflowers/:yarlington": {
+          "question": "Do you like flowers?",
+          "answer": "Yes"
+        },
+        "https://areyouticklish/:yarlington": {
+          "question": "Are you ticklish?",
+          "answer": "No"
+        }
+      }
+    },
+    "canutthegreat": {
+      "name": "Kate King",
+      "email": "kateking@gmail.com",
+      "tel": "01736 732324",
+      "address1": "33",
+      "address2": "Bukingham Palace Road",
+      "town": "London",
+      "postcode": "WC1B 3RT",
+      "country": "United Kingdom"
+    },
+    "angelaharris": {
       "residents": {
         //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
         "cards": {
@@ -108,141 +252,28 @@
       }
     }
   },
-  "dch": {
-    "adminpowerusers": {
-      "timwotton": {
-        "name": "Tim Wotton"
-      }
-    },
-    "adminusers": {
-      "tonyjones": {
-        //check this against webappshared/userid/userinfoshared
-        "adminauserinfo": {
-          "name": "Tony Jones",
-          "email": "tonyjones@gmail.com",
-          "tel": "0789545434",
-          "address1": "Something House",
-          "address2": "Something Street",
-          "town": "Something Town",
-          "county": "Something County",
-          "postcode": "Something Posts Code",
-          "country": "Something Country"
+  "adminuserdecks": {
+    "residents": {
+      //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
+      "cards": {
+        "https://jobsearch/:yarlington": {
+          "title": "Job Search",
+          "img": "http:hi9.com/images/jobsearchicon.png"
         },
-        //add these cards to the ones in the userdeck per user
-        "adminusercards": {
-          "https://facebook.com/:yarlington": {
-            "title": "Facebook",
-            "img": "http:hi9.com/images/facebook.png"
-          },
-          "https://guardian.com/:yarlington": {
-            "title": "Guardian",
-            "img": "http:hi9.com/images/facebook.png"
-          }
+        "https://bbc.com/:yarlington": {
+          "title": "BBC",
+          "img": "http:hi9.com/images/bbc.png"
         },
-        //these are the answers to the survey questions
-        "adminsurveyanswers": {
-          "https://doyoulikeflowers/:yarlington": {
-            "question": "Do you like flowers?",
-            "answer": "Yes"
-          },
-          "https://areyouticklish/:yarlington": {
-            "question": "Are you ticklish?",
-            "answer": "No"
-          }
-        }
-      },
-      "paulsmith": {
-        //check this against webappshared/userid/userinfoshared
-        "adminauserinfo": {
-          "name": "Wo King",
-          "email": "mywoisme@gmail.com",
-          "tel": "0789566544",
-          "address1": "Chy an Gover",
-          "address2": "Lamorna",
-          "town": "Penzance",
-          "county": "Cornwall",
-          "postcode": "TR19 6XQ",
-          "country": "United Kingdom"
+        //list of users done alphabetically
+        "users": {
+          "01": "marchitchens",
+          "02": "woking",
+          "03": "kateking"
         },
-        //add these cards to the ones in the userdeck per user
-        "adminusercards": {
-          "https://facebook.com/:yarlington": {
-            "title": "Facebook",
-            "img": "http:hi9.com/images/facebook.png"
-          },
-          "https://guardian.com/:yarlington": {
-            "title": "Guardian",
-            "img": "http:hi9.com/images/facebook.png"
-          }
-        },
-        //these are the answers to the survey questions
-        "adminsurveyanswers": {
-          "https://doyoulikeflowers/:yarlington": {
-            "question": "Do you like flowers?",
-            "answer": "Yes"
-          },
-          "https://areyouticklish/:yarlington": {
-            "question": "Are you ticklish?",
-            "answer": "No"
-          }
-        }
-      },
-      "canutthegreat": {
-        "name": "Kate King",
-        "email": "kateking@gmail.com",
-        "tel": "01736 732324",
-        "address1": "33",
-        "address2": "Bukingham Palace Road",
-        "town": "London",
-        "postcode": "WC1B 3RT",
-        "country": "United Kingdom"
-      },
-      "angelaharris": {
-        "residents": {
-          //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
-          "cards": {
-            "https://jobsearch/:yarlington": {
-              "title": "Job Search",
-              "img": "http:hi9.com/images/jobsearchicon.png"
-            },
-            "https://bbc.com/:yarlington": {
-              "title": "BBC",
-              "img": "http:hi9.com/images/bbc.png"
-            },
-            //list of users done alphabetically
-            "users": {
-              "01": "marchitchens",
-              "02": "woking",
-              "03": "kateking"
-            },
-            "business": {},
-            "alvertonresidents": {}
-          }
-        }
-      }
-    },
-    "adminuserdecks": {
-      "residents": {
-        //cards that poweruser will be able to see belong to this deck of users. They are replicated in each user in the deck
-        "cards": {
-          "https://jobsearch/:yarlington": {
-            "title": "Job Search",
-            "img": "http:hi9.com/images/jobsearchicon.png"
-          },
-          "https://bbc.com/:yarlington": {
-            "title": "BBC",
-            "img": "http:hi9.com/images/bbc.png"
-          },
-          //list of users done alphabetically
-          "users": {
-            "01": "marchitchens",
-            "02": "woking",
-            "03": "kateking"
-          },
-          "business": {},
-          "alvertonresidents": {}
-        }
+        "business": {},
+        "alvertonresidents": {}
       }
     }
   }
+}
 }

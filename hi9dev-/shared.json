@@ -4,7 +4,7 @@
   "uid0": {
     //List of users in this admin
     "adminsharedusers": {
-       //Marcus Hitchens Card
+       //Marcus Hitchens
       "uid10": {
         //List of users cards that have been shared by the admin
         "adminsharedcards": {
@@ -26,10 +26,11 @@
           }
         },
         "readable": {
-          "marchitches": "true"
+          "uid10": "true"
         }
       },
-      "woking": {
+      //Wo King
+      "uid11": {
         "adminsharedcards": {
           "https://facebook.com/:yarlington": {
             "title": "Facebook",
@@ -48,7 +49,8 @@
             "img": "http:hi9.com/images/buzzfeed.png"
           }
         },
-        "kateking": {
+        //Kate King
+        "uid12": {
           "https://facebook.com/:yarlington": {
             "title": "Facebook",
             "img": "http:hi9.com/images/facebook.png"
