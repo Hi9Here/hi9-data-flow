@@ -10,39 +10,47 @@
     "postcode": "Something Posts Code",
     "country": "Something Country",
     "cards": {
-         "https://bbc.com/:uid10": {
-            "title": "BBC",
-            "img": "http:hi9.com/images/bbc.png"
-          },
-          "https://producthunt.com/:uid10": {
-            "title": "Product Hunt",
-            "img": "http:hi9.com/images/producthunt.png"
-          },
-         "https://etsy.com/:uid10": {
-            "title": "Etsy",
-            "img": "http:hi9.com/images/etsy.png"
-          },
-          "https://ancestry.com/:uid10": {
-            "title": "Ancestry",
-            "img": "http:hi9.com/images/ancestry.png"
-          },
-         "https://bbc.com/:uid10": {
-            "title": "BBC",
-            "img": "http:hi9.com/images/bbc.png"
-          },
-          "https://producthunt.com/:uid10": {
-            "title": "Product Hunt",
-            "img": "http:hi9.com/images/producthunt.png"
-          },
-         "https://bbc.com/:uid10": {
-            "title": "BBC",
-            "img": "http:hi9.com/images/bbc.png"
-          },
-          "https://producthunt.com/:uid10": {
-            "title": "Product Hunt",
-            "img": "http:hi9.com/images/producthunt.png"
-          }
-    }
+      "links": {
+        "https://bbc.com/:uid10": {
+          "title": "BBC",
+          "img": "http:hi9.com/images/bbc.png"
+        },
+        "https://producthunt.com/:uid10": {
+          "title": "Product Hunt",
+          "img": "http:hi9.com/images/producthunt.png"
+        },
+        "https://etsy.com/:uid10": {
+          "title": "Etsy",
+          "img": "http:hi9.com/images/etsy.png"
+        },
+        "https://ancestry.com/:uid10": {
+          "title": "Ancestry",
+          "img": "http:hi9.com/images/ancestry.png"
+        },
+        "https://bbc.com/:uid10": {
+          "title": "BBC",
+          "img": "http:hi9.com/images/bbc.png"
+        },
+        "https://producthunt.com/:uid10": {
+          "title": "Product Hunt",
+          "img": "http:hi9.com/images/producthunt.png"
+        },
+        "https://bbc.com/:uid10": {
+          "title": "BBC",
+          "img": "http:hi9.com/images/bbc.png"
+        },
+        "https://producthunt.com/:uid10": {
+          "title": "Product Hunt",
+          "img": "http:hi9.com/images/producthunt.png"
+        }
+      },
+      "surveyquestions": {
+        
+      },
+      //used to create webappshared.json/usersharedsurveyanswers
+      "surveyanswers": {
+        
+      }
   },
   "uid11": {
     "name": "Wo King",

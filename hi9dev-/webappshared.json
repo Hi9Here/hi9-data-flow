@@ -1,6 +1,6 @@
 {
-  "marchitchens": {
-    //this 
+  //Marcus Hitchens Personal Information
+  "uid10": {
     "usersharedinfo": {
       "uid": "uid10",
       "name": "Marcus Hitchins",
@@ -25,22 +25,51 @@
       }
     }
   },
-  "woking": {
-
+  "uid11": {
+    "usersharedinfo": {
+      "uid": "uid11",
+      "name": "Wo King"
+    },
+    //these are the answers to the survey questions
+    "usersharedsurveyanswers": {
+      "https://doyoulikeflowers/:yarlington": {
+        "question": "Do you like flowers?",
+        "answer": "Yes"
+      },
+      "https://areyouticklish/:yarlington": {
+        "question": "Are you ticklish?",
+        "answer": "No"
+      }
+    }
   },
-  "kateking": {
-
+  "uid12": {
+    "usersharedinfo": {
+      "uid": "uid12",
+      "name": "Kate King"
+    }
   },
-  "tonyjones": {
-
+  "uid13": {
+    "usersharedinfo": {
+      "uid": "uid13",
+      "name": "Tony Jones"
+    }
   },
-  "paulsmith": {
-
+  "uid14": {
+    "usersharedinfo": {
+      "uid": "uid14",
+      "name": "Paul Smith"
+    }
   },
-  "canutthegreat": {
-
+  "uid15": {
+    "usersharedinfo": {
+      "uid": "uid15",
+      "name": "Canut the Great"
+    }
   },
-  "angelaharris": {
-
+  "uid16": {
+    "usersharedinfo": {
+      "uid": "uid16",
+      "name": "Angela Harris"
+    }
   }
 }
