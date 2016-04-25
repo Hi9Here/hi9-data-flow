@@ -1,6 +1,9 @@
 {
   //Paths are Admin specific. So each admin redoes the data in their path each time they update
-  //This is Yarlington uid0
+  //This is Yarlington "uid0":
+  "openlink": {
+  "yarlington": "uid0"
+  },
   "uid0": {
     //List of users in this admin
     "adminsharedusers": {

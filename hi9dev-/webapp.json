@@ -14,8 +14,8 @@
       "timestamp": "21254456325"
     },
     "cards": {
-      "links": {
-        "https://bbc.com/:uid10": {
+        "01": {
+          "url": "https://bbc.com/:uid10",
           "title": "BBC",
           "img": "http:hi9.com/images/bbc.png"
         },
@@ -46,8 +46,7 @@
         "https://producthunt.com/:uid10": {
           "title": "Product Hunt",
           "img": "http:hi9.com/images/producthunt.png"
-        }
-      },
+        },
       //survey questions from an admin to an individual
       "surveyquestions": {
         "https://doyoulikepink/:uid10": {
