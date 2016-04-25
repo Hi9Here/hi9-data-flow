@@ -14,99 +14,70 @@
       "timestamp": "21254456325"
     },
     "cards": {
-        "01": {
-          "url": "https://bbc.com/:uid10",
-          "title": "BBC",
-          "img": "http:hi9.com/images/bbc.png"
-        },
-        "https://producthunt.com/:uid10": {
+      "01": {
+        "url": "https://bbc.com/:uid10",
+        "title": "BBC",
+        "img": "http:hi9.com/images/bbc.png"
+      },
+      "02": {
+        "url": "https://producthunt.com/:uid10",
+        "title": "Product Hunt",
+        "img": "http:hi9.com/images/producthunt.png"
+      },
+      "03": {
+        "url": "https://etsy.com/:uid10",
+        "title": "Etsy",
+        "img": "http:hi9.com/images/etsy.png"
+      },
+      "04": {
+        "url": "https://ancestry.com/:uid10",
+        "title": "Ancestry",
+        "img": "http:hi9.com/images/ancestry.png"
+      },
+      "05": {
+        "url": "https://bbc.com/:uid10",
+        "title": "BBC",
+        "img": "http:hi9.com/images/bbc.png"
+      },
+      "06": {
+        "url": "https://producthunt.com/:uid10",
+        "title": "Product Hunt",
+        "img": "http:hi9.com/images/producthunt.png"
+      },
+      "07": {
+        "url": "https://bbc.com/:uid10",
+        "title": "BBC",
+        "img": "http:hi9.com/images/bbc.png"
+      },
+      "08": {
+        "url": "https://producthunt.com/:uid10" 
           "title": "Product Hunt",
           "img": "http:hi9.com/images/producthunt.png"
-        },
-        "https://etsy.com/:uid10": {
-          "title": "Etsy",
-          "img": "http:hi9.com/images/etsy.png"
-        },
-        "https://ancestry.com/:uid10": {
-          "title": "Ancestry",
-          "img": "http:hi9.com/images/ancestry.png"
-        },
-        "https://bbc.com/:uid10": {
-          "title": "BBC",
-          "img": "http:hi9.com/images/bbc.png"
-        },
-        "https://producthunt.com/:uid10": {
-          "title": "Product Hunt",
-          "img": "http:hi9.com/images/producthunt.png"
-        },
-        "https://bbc.com/:uid10": {
-          "title": "BBC",
-          "img": "http:hi9.com/images/bbc.png"
-        },
-        "https://producthunt.com/:uid10": {
-          "title": "Product Hunt",
-          "img": "http:hi9.com/images/producthunt.png"
-        },
-      //survey questions from an admin to an individual
-      "surveyquestions": {
-        "https://doyoulikepink/:uid10": {
-          "title": "Do You Like Pink?"
-        },
-        "https://areyoutall/:uid10": {
-          "title": "Are You Tall?"
         }
       },
-      //these are the survey questions from admin to a deck
-      "adminsurveyquestions": {
-        "https://doyoulikeflowers/:uid1": {
-          "question": "Do you like flowers?"
-        },
-        "https://areyouticklish/:uid1": {
-          "question": "Are you ticklish?"
-        }
+      "uid11": {
+        "name": "Wo King",
+        "admin": "yarlington"
       },
-      //used to create webappshared.json/usersharedsurveyanswers
-      "surveyanswers": {
-        "https://doyoulikepink/:uid10": {
-          "title": "Do You Like Pink?",
-          "answer": "Yes"
-        },
-        "https://areyoutall/:uid10": {
-          "title": "Are You Tall?",
-          "img": "Yes"
-        }
+      "uid12": {
+        "name": "Kate King",
+        "admin": "yarlington"
       },
-      //these are the answers to the survey questions from admin to deck
-      "adminsurveyanswers": {
-        "https://areyouticklish/:uid1": {
-          "question": "Do you like flowers?",
-          "answer": "Yes"
-        }
+      "uid13": {
+        "name": "Tony Jones",
+        "admin": "dch"
+      },
+      "uid14": {
+        "name": "Paul Smith",
+        "admin": "dch"
+      },
+      "uid15": {
+        "name": "Canut Great",
+        "admin": "dch"
+      },
+      "uid16": {
+        "name": "Angela Harris",
+        "admin": "dch"
       }
-    },
-    "uid11": {
-      "name": "Wo King",
-      "admin": "yarlington"
-    },
-    "uid12": {
-      "name": "Kate King",
-      "admin": "yarlington"
-    },
-    "uid13": {
-      "name": "Tony Jones",
-      "admin": "dch"
-    },
-    "uid14": {
-      "name": "Paul Smith",
-      "admin": "dch"
-    },
-    "uid15": {
-      "name": "Canut Great",
-      "admin": "dch"
-    },
-    "uid16": {
-      "name": "Angela Harris",
-      "admin": "dch"
     }
   }
-}
